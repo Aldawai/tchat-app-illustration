@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <link rel="stylesheet" type="text/css" href="./css/users-list.css">
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <div class="design"></div>
+      <section class="phone">
+        <div class="top-bar">
+          <div class="line"></div>
+        </div>
+        <div class="item users-list">
+          <header>
+            <form class="msg" method="POST">
+              <input type="text" placeholder="Search users...">
+              <button type="submit">
+                <img src="./svg/angle-right.svg">
+              </button>
+            </form>
+          </header>
+          <div class="body">
+            <div class="users-list-container">
+            </div>
+          </div>
+        </div>
+        <div class="item messenger">
+          <header>
+            <img id="go-back" src="./svg/angle-left.svg">
+            <img id="avatar" alt="avatar" src="./images/avatar.jpg">
+            <div class="users-infos">
+              <h4>Samuel Green</h4>
+              <h5>Available to Talk</h5>
+            </div> 
+            <img id="more" src="./svg/grip-vertical.svg">
+          </header>
+          <div class="body">
+            <div class="msg-container"></div>
+            <form class="msg" method="POST">
+              <input type="text" placeholder="Type a message…">
+              <button type="submit">
+                <img src="./svg/angle-right.svg">
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="right">
+      <div class="text">
+        <h2>Prototype</h2>
+        <p>
+          Tchat App
+        </p>
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="https://twitter.com/DawaiBoubakari">Dawaï</a>.
+        </div>
+      </div>
+      <div class="design"></div>
+    </div>
+  </div>
+  <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>
